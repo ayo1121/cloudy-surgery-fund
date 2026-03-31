@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    font-family: 'Inter', 'Outfit', sans-serif;
+  }
+  
+  body {
+    @apply bg-dark-900 text-gray-200 antialiased selection:bg-brand-primary/30;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .btn-primary {
+    @apply px-8 py-3 bg-brand-primary hover:bg-brand-primary/90 text-white font-semibold rounded-full transition-all active:scale-95 shadow-lg shadow-brand-primary/20 cursor-pointer;
+  }
+  
+  .btn-secondary {
+    @apply px-8 py-3 bg-dark-700 hover:bg-dark-600 text-white font-semibold rounded-full transition-all active:scale-95 border border-white/10 cursor-pointer;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-indigo-500;
+  }
+}
