@@ -4,7 +4,7 @@ import { Smartphone, Send, Copy, Check } from 'lucide-react';
 
 const HowToHelp = () => {
   const [copied, setCopied] = useState(false);
-  const whishNumber = "+961 XX XXX XXX"; // Placeholder for the user's Whish number
+  const whishNumber = "+961 76 513 591"; // Placeholder for the user's Whish number
 
   const handleCopy = () => {
     navigator.clipboard.writeText(whishNumber);
