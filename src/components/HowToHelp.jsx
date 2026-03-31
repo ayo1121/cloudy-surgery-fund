@@ -70,11 +70,11 @@ const HowToHelp = () => {
             
             <h3 className="text-2xl font-black text-white mb-4 uppercase tracking-tight">Other <span className="font-light">Methods</span></h3>
             <p className="text-sm text-gray-500 leading-relaxed mb-8 flex-grow">
-               If you wish to donate via PayPal or other international transfers, please message us directly on TikTok.
+               If you wish to donate via PayPal or other international transfers, please message us directly on Whatsapp.
             </p>
             
             <button className="w-full py-4 bg-blue-500 hover:bg-blue-600 text-white font-black rounded-2xl transition-all shadow-lg shadow-blue-500/20 active:scale-95 uppercase tracking-widest text-sm">
-               Contact on TikTok
+               Contact on Whatsapp
             </button>
           </motion.div>
         </div>
